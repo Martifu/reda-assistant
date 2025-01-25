@@ -197,7 +197,127 @@ app.post('/api/message', async (req, res) => {
             "montoMinimo": 5589782.8500,
             "montoMaximo": 10733491.0000,
             "descripcion": "La Boca Resort es un exclusivo desarrollo que fusiona modernidad, lujo y naturaleza en un entorno incomparable."
+        },
+        // ... proyectos originales ...
+        {
+            "idProyecto": 414,
+            "nombre": "Bosque Residencial",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Carretera a Toluca Km 12.5, Ciudad de México",
+            "montoMinimo": 3500000.0000,
+            "montoMaximo": 8500000.0000,
+            "recamaras": "3-4",
+            "banos": "2-3",
+            "areas": "180-300",
+            "descripcion": "Conjunto residencial ecológico con áreas verdes y diseño bioclimático en las afueras de la CDMX."
+        },
+        {
+            "idProyecto": 415,
+            "nombre": "Torre Diamante",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Av. Revolución 1500, Guadalajara, Jalisco",
+            "montoMinimo": 7500000.0000,
+            "montoMaximo": 25000000.0000,
+            "recamaras": "2-3",
+            "banos": "2",
+            "areas": "95-220",
+            "descripcion": "Rascacielos inteligente con amenities de lujo en el corazón financiero de Guadalajara."
+        },
+        {
+            "idProyecto": 416,
+            "nombre": "Hacienda del Sol",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Carretera Mérida-Progreso Km 14.5, Yucatán",
+            "montoMinimo": 2800000.0000,
+            "montoMaximo": 4800000.0000,
+            "recamaras": "4",
+            "banos": "3-4",
+            "areas": "250-400",
+            "descripcion": "Viviendas estilo colonial moderno con alberca privada y techos altos tradicionales."
+        },
+        {
+            "idProyecto": 417,
+            "nombre": "Sky Garden",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Blvd. Aguascalientes 2001, Aguascalientes",
+            "montoMinimo": 4200000.0000,
+            "montoMaximo": 6800000.0000,
+            "recamaras": "2-3",
+            "banos": "2",
+            "areas": "110-185",
+            "descripcion": "Departamentos con jardines verticales y terrazas habitables con vista panorámica."
+        },
+        {
+            "idProyecto": 418,
+            "nombre": "Puerta del Mar",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Zona Hotelera, Cancún, Quintana Roo",
+            "montoMinimo": 12000000.0000,
+            "montoMaximo": 35000000.0000,
+            "recamaras": "3-5",
+            "banos": "3-4",
+            "areas": "300-600",
+            "descripcion": "Residencias de lujo frente al mar Caribe con acceso privado a playa y marina."
+        },
+        {
+            "idProyecto": 419,
+            "nombre": "Vista Hermosa",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Cerro del Cubilete, Guanajuato",
+            "montoMinimo": 1850000.0000,
+            "montoMaximo": 3250000.0000,
+            "recamaras": "2-3",
+            "banos": "1-2",
+            "areas": "75-120",
+            "descripcion": "Departamentos económicos con vista a la sierra para jóvenes profesionales."
+        },
+        {
+            "idProyecto": 420,
+            "nombre": "Paseo del Río",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Calzada Independencia 345, Monterrey, NL",
+            "montoMinimo": 4500000.0000,
+            "montoMaximo": 9500000.0000,
+            "recamaras": "3",
+            "banos": "2-3",
+            "areas": "150-280",
+            "descripcion": "Complejo familiar con acceso directo al parque lineal del río Santa Catarina."
+        },
+        {
+            "idProyecto": 421,
+            "nombre": "Altos de Tulum",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Carretera Tulum-Boca Paila Km 5.5, Quintana Roo",
+            "montoMinimo": 8500000.0000,
+            "montoMaximo": 22000000.0000,
+            "recamaras": "Studio-3",
+            "banos": "1-3",
+            "areas": "45-180",
+            "descripcion": "Condominio boutique eco-friendly cerca de las ruinas mayas y cenotes."
+        },
+        {
+            "idProyecto": 422,
+            "nombre": "Torre Financiera",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Paseo de la Reforma 505, CDMX",
+            "montoMinimo": 25000000.0000,
+            "montoMaximo": 95000000.0000,
+            "areas": "350-1200",
+            "descripcion": "Oficinas clase A+ con tecnología de punta en el corredor financiero más importante de Latinoamérica."
+        },
+        {
+            "idProyecto": 423,
+            "nombre": "Villas del Desierto",
+            "img": "https://auctree.com/images/propertyPlaceHolder.png",
+            "direccion": "Carretera Cuatro Ciénegas 210, Coahuila",
+            "montoMinimo": 3200000.0000,
+            "montoMaximo": 7500000.0000,
+            "recamaras": "3-4",
+            "banos": "2-3",
+            "areas": "200-350",
+            "descripcion": "Viviendas con diseño contemporáneo y sistemas sustentables para clima desértico."
         }
+
     ];
 
     const extractProjectRecommendation = (message) => {
