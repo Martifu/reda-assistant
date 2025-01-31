@@ -4,11 +4,13 @@ const app = express();
 const port = 3000;
 const https = require('https');
 const { OpenAI } = require('openai');
+//env
+require('dotenv').config();
 const openai = new OpenAI(
     {
         // baseURL: 'https://api.deepseek.com',
         // apiKey: 'sk-1c546441c36b4646aa6fa0628901fa51'
-        apiKey: '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',
+        apiKey: process.env.OPENAI_API_KEY,
     }
 );
 
