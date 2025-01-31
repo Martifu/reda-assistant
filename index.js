@@ -8,7 +8,7 @@ const openai = new OpenAI(
     {
         // baseURL: 'https://api.deepseek.com',
         // apiKey: 'sk-1c546441c36b4646aa6fa0628901fa51'
-        apiKey: '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',
+        apiKey: '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',
     }
 );
 
