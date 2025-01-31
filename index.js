@@ -7,7 +7,7 @@ const { OpenAI } = require('openai');
 const openai = new OpenAI(
     {
         // baseURL: 'https://api.deepseek.com',
-        // apiKey:'sk-1c546441c36b4646aa6fa0628901fa51'
+        // apiKey: 'sk-1c546441c36b4646aa6fa0628901fa51'
         apiKey: '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',
     }
 );
